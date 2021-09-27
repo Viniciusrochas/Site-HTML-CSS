@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Inicio do css da pagina*/
+.container{
+    
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    width: 800px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
+}
+.logo h1{
+    font-size: 40px;
+    color: chocolate;
+}
+nav{
+    
+    background-color:darkgrey;
+}
+nav li {
+    list-style: none; 
+    margin: 0;
+    display: inline;
+    
+    }
+
+li a {
+    color: #FFF;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    
+}
+/*
+li:first-child a {
+    
+
+}
+
+li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+*/
+.imagem {
+    display: flex;
+    
+
+}
+.box {
+    width: 200px;
+    height: 300px;
+    
+    text-align: center;
+    margin:20px auto;
+}
+.imagem img{
+    
+    width: 200px;
+    height: 200px;
+}
+.texto{
+    
+    margin-top: 50px;
+    
+}
+.texto h1{
+    color:blue;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.texto p{
+    text-align: justify;
+    
+    text-indent: 5ch;
+}
+
+footer{
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+footer p{
+    color: white;
+}
